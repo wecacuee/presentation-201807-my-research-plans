@@ -1,0 +1,168 @@
+cite, footnote {
+    display: none;
+}
+
+.reveal .slides .othercite {
+    font-size:8pt;color:gray;text-align:right;width:100%;
+}
+
+#footer {
+    font-size : 16pt;
+    /*color: gray;*/
+    color: #515151;
+    margin: 3px 3px 3px -10px;
+    text-align:right;
+    float:right;
+    width: 40%;
+}
+
+b {
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+.reveal table td {
+    border-bottom: 0px;
+}
+
+.reveal .slides {
+    /* Remove later */
+    /*border : 2px dashed gray;*/
+    --main-bg-color: #fff;
+    background-color: var(--main-bg-color); 
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(85%, #ffffff), color-stop(100%, #e6e6e6));
+    background: -webkit-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+    background: -moz-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+    background: -o-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+    background: -ms-linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+    background: linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
+}
+
+.reveal section img {
+    border: none;
+    box-shadow: 0 0;
+}
+.reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+}
+
+.reveal {
+    font-size: 26px;
+}
+
+.reveal h2 {
+  font-size: 45px;
+  line-height: 45px;
+  letter-spacing: -2px;
+  color: #515151; }
+
+.reveal h3 {
+  font-size: 38px;
+  letter-spacing: -1px;
+  line-height: 2;
+  font-weight: inherit;
+  color: #515151; }
+
+.reveal h4 {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: inherit;
+  color: #515151; }
+
+.reveal .left {
+    text-align: left;
+}
+
+ul {
+  margin-left: 1.2em;
+  margin-bottom: 1em;
+  position: relative; }
+  ul li {
+    margin-bottom: 0.5em; }
+    ul li ul {
+      margin-left: 2em;
+      margin-bottom: 0; }
+      ul li ul li:before {
+        content: '-';
+        font-weight: 600; }
+  ul > li:before {
+    content: '\00B7';
+    margin-left: -1em;
+    position: absolute;
+    font-weight: 600; }
+  ul ul {
+    margin-top: .5em; }
+
+.reveal ol, .reveal ul {
+  list-style: none; }
+
+.reveal ol li ol , .reveal ul li ul {
+  list-style: none; }
+
+.reveal section .fragment.display {
+    display: none;
+}
+    .reveal section .fragment.display.visible {
+        display : inherit;
+    }
+
+.reveal section .fragment.nodisplay {
+    display: inherit;
+    opacity: 1;
+    visibility: inherit;
+}
+    .reveal section .fragment.nodisplay.visible.current-fragment {
+        display: inherit;
+        opacity: 1;
+        visibility: inherit;
+    }
+
+    .reveal section .fragment.nodisplay.visible {
+        display : none;
+    }
+
+.reveal section .fragment.current-display {
+    display: none;
+}
+    .reveal section .fragment.visible.current-display {
+        display: none;
+    }
+    .reveal section .fragment.current-display.visible.current-fragment {
+        display : inherit;
+    }
+
+.reveal section .fragment.current-border {
+    border: 4px solid rgba(255, 255, 255, 0);
+}
+    .reveal section .fragment.visible.current-border {
+        border: 4px solid rgba(255, 255, 255, 0);
+    }
+    .reveal section .fragment.current-border.visible.current-fragment {
+        border: 4px solid red;
+    }
+
+.reveal section .fragment.nofade {
+    opacity: 1.0;
+    visibility: inherit;
+}
+    .reveal section .fragment.visible.nofade {
+        opacity: 1.0;
+        visibility: inherit;
+    }
+    .reveal section .fragment.nofade.visible.current-fragment {
+        opacity: 1.0;
+        visibility: inherit;
+    }
+
+.circle {
+    width: 100px;
+    height: 50px;
+    text-align:center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #FF9999;
+}
